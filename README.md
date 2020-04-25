@@ -46,7 +46,7 @@
     Example
         <img src="Image Link/adress" alt="alternative text" width="104" height="142">
         
-#HTML Buttons
+# HTML Buttons
     HTML buttons are defined with the <button> tag:
     Example
         <button>Click me</button>
@@ -87,10 +87,36 @@
     The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
     The <hr> element is used to separate content (or define a change) in an HTML page:
     
-# The HTML <head> Element
+# The HTML head Element
     The HTML <head> element is a container for metadata. HTML metadata is data about the HTML document. Metadata is not displayed.
     The <head> element is placed between the <html> tag and the <body> tag:
 
+# The HTML pre Element
+    With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.
+    The HTML <pre> element defines preformatted text.
+    The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+    
+# The HTML Style Attribute
+    Setting the style of an HTML element, can be done with the style attribute.
+    The HTML style attribute has the following syntax:
+    <tagname style="property:value;">
 
-    
-    
+# Background Color
+    The CSS background-color property defines the background color for an HTML element.
+    This example sets the background color for a page to powderblue:
+    Example
+        <body style="background-color:powderblue;">
+        <h1>This is a heading</h1> <p>This is a paragraph.</p></body>
+        
+# Fonts
+    The CSS font-family property defines the font to be used for an HTML element:
+    Example
+        <h1 style="font-family:verdana;">This is a heading</h1> <p style="font-family:courier;">This is a paragraph.</p>
+        
+# Text Alignment
+    The CSS text-align property defines the horizontal text alignment for an HTML element:
+    Example
+        <h1 style="text-align:center;">Centered Heading</h1> <p style="text-align:center;">Centered paragraph.</p>
+        
+        
+        
