@@ -118,5 +118,89 @@
     Example
         <h1 style="text-align:center;">Centered Heading</h1> <p style="text-align:center;">Centered paragraph.</p>
         
+# HTML Formatting Elements
+    Formatting elements were designed to display special types of text:
+        <b> - Bold text
+        <strong> - Important text
+        <i> - Italic text
+        <em> - Emphasized text
+        <mark> - Marked text
+        <small> - Small text
+        <del> - Deleted text
+        <ins> - Inserted text
+        <sub> - Subscript text
+        <sup> - Superscript text
         
+# HTML Quotation and Citation Elements
+# HTML 'q' for Short Quotations
+    The HTML <q> element defines a short quotation. Browsers usually insert quotation marks around the <q> element.
+    Example
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
         
+# HTML 'blockquote' for Quotations
+    The HTML <blockquote> element defines a section that is quoted from another source. Browsers usually indent <blockquote> elements.
+
+# HTML 'abbr' for Abbreviations
+    The HTML <abbr> element defines an abbreviation or an acronym. Marking abbreviations can give useful information to browsers, translation systems and search-engines.
+    Example
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+# HTML 'bdo' for Bi-Directional Override
+    The HTML <bdo> element defines bi-directional override. The <bdo> element is used to override the current text direction:
+    Example
+        <bdo dir="rtl">This text will be written from right to left</bdo>
+
+# HTML Comment Tags
+    You can add comments to your HTML source by using the following syntax: 
+        <!-- Write your comments here -->
+    Notice that there is an exclamation point (!) in the opening tag, but not in the closing tag.
+        
+# Styling HTML with CSS
+    CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. 
+    CSS saves a lot of work. It can control the layout of multiple web pages all at once. CSS can be added to HTML elements in 3 ways:
+        Inline - by using the style attribute in HTML elements  
+        Internal - by using a <style> element in the <head> section
+        External - by using an external CSS file
+        
+# Internal CSS
+    An internal CSS is used to define a style for a single HTML page. An internal CSS is defined in the <head> section of an HTML page, within a <style> element:
+    <head><style>body {background-color: powderblue;}
+    h1   {color: blue;}
+    p    {color: red;}</style></head>
+         
+# External CSS
+    An external style sheet is used to define the style for many HTML pages. With an external style sheet, you can change the look of an entire web site, by changing one file!
+    To use an external style sheet, add a link to it in the <head> section of the HTML page:
+        <head> <link rel="stylesheet" href="styles.css"> </head>
+
+# CSS Border
+    The CSS border property defines a border around an HTML element: Example
+    p {border: 1px solid powderblue;}
+    
+# Chapter Summary
+    Use the HTML style attribute for inline styling
+    Use the HTML <style> element to define internal CSS
+    Use the HTML <link> element to refer to an external CSS file
+    Use the HTML <head> element to store <style> and <link> elements
+    Use the CSS color property for text colors
+    Use the CSS font-family property for text fonts
+    Use the CSS font-size property for text sizes
+    Use the CSS border property for borders
+    Use the CSS padding property for space inside the border
+    Use the CSS margin property for space outside the border
+
+# HTML Links - The target Attribute
+    The target attribute specifies where to open the linked document. The target attribute can have one of the following values:
+    _blank - Opens the linked document in a new window or tab
+    _self - Opens the linked document in the same window/tab as it was clicked (this is default)
+    _parent - Opens the linked document in the parent frame
+    _top - Opens the linked document in the full body of the window
+    framename - Opens the linked document in a named frame
+    This example will open the linked document in a new browser window/tab: Example
+        <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+    
+# Button as a Link
+    To use an HTML button as a link, you have to add some JavaScript code. JavaScript allows you to specify what happens at certain events, such as a click of a button: Example
+    <button onclick="document.location = 'default.asp'">HTML Tutorial</button>
+    
+    
